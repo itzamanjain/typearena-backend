@@ -19,6 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
+  console.log('All Systems are running ✅');
   res.send('Typing Test API');
 });
 
